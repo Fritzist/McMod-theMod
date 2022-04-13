@@ -13,9 +13,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Main.MODID);
 
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SILVER_TAB)));
 
-    //public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
+    // public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
       //      () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
 
     /*public static final RegistryObject<Item> SILVER_HOE = ITEMS.register("silver_hoe",
@@ -26,9 +26,6 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));*/
-
-
-
 
 
 

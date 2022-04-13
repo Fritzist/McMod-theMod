@@ -1,6 +1,7 @@
 package de.fritzist.theMod.block;
 
 import de.fritzist.theMod.Main;
+import de.fritzist.theMod.item.ModCreativeModeTab;
 import de.fritzist.theMod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,12 +22,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(3, 10).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(3, 10).requiresCorrectToolForDrops()), ModCreativeModeTab.SILVER_TAB);
 
     public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3, 10).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(3, 10).requiresCorrectToolForDrops()), ModCreativeModeTab.SILVER_TAB);
 
+    public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4, 13).requiresCorrectToolForDrops()), ModCreativeModeTab.SILVER_TAB);
 
 
 

@@ -6,5 +6,9 @@
   "item.themod.silver_axe": "Silver Axe",
   "item.themod.silver_hoe": "Silver Hoe",
   "block.themod.silver_block": "Block of Silver",
-  "block.themod.silver_ore": "Silver Ore"
+  "block.themod.silver_ore": "Silver Ore",
+  "block.themod.deepslate_silver_ore": "Deepslate Silver Ore",
+
+  "itemGroup.SILVER-theMod": "SILVER-theMod"
+
 }
