@@ -1,5 +1,6 @@
 package de.fritzist.theMod;
 
+import de.fritzist.theMod.block.ModBlocks;
 import de.fritzist.theMod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,7 @@ public class Main {
 
 
         ModItems.Register(eventBus);
+        ModBlocks.Register(eventBus);
 
         eventBus.addListener(this::Setup);
         eventBus.addListener(this::SetupClient);

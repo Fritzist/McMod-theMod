@@ -14,9 +14,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
-    /*public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> SILVER_HOE = ITEMS.register("silver_hoe",
+
+    //public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
+      //      () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+
+    /*public static final RegistryObject<Item> SILVER_HOE = ITEMS.register("silver_hoe",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> SILVER_PICKAXE = ITEMS.register("silver_pickaxe",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
