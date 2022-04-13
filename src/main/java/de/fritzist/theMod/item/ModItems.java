@@ -1,7 +1,6 @@
 package de.fritzist.theMod.item;
 
 import de.fritzist.theMod.Main;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Main.MODID);
 
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SILVER_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.theMod)));
 
     // public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
       //      () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));

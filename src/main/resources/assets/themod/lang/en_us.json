@@ -9,6 +9,6 @@
   "block.themod.silver_ore": "Silver Ore",
   "block.themod.deepslate_silver_ore": "Deepslate Silver Ore",
 
-  "itemGroup.SILVER-theMod": "SILVER-theMod"
+  "itemGroup.theMod": "theMod"
 
 }

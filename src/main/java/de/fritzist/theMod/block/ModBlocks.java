@@ -22,15 +22,18 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(3, 10).requiresCorrectToolForDrops()), ModCreativeModeTab.SILVER_TAB);
+                    .strength(3f, 10)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.theMod);
 
     public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3, 10).requiresCorrectToolForDrops()), ModCreativeModeTab.SILVER_TAB);
+                    .strength(3, 10)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.theMod);
 
     public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(4, 13).requiresCorrectToolForDrops()), ModCreativeModeTab.SILVER_TAB);
+                    .strength(4, 13)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.theMod);
 
 
 
