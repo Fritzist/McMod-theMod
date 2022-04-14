@@ -1,6 +1,8 @@
 package de.fritzist.theMod.item.custom;
 
+import de.fritzist.theMod.util.ModTags;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Registry;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.InteractionResult;
@@ -51,10 +53,7 @@ public class DowsingRodItem extends Item {
     }
 
     private boolean isValuableBlock(Block block) {
-        return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE
-                || block == Blocks.DIAMOND_ORE || block == Blocks.IRON_ORE
-                || block == Blocks.DEEPSLATE_COAL_ORE || block == Blocks.DEEPSLATE_COPPER_ORE
-                || block == Blocks.DEEPSLATE_DIAMOND_ORE || block == Blocks.DEEPSLATE_IRON_ORE;
-
+        return Registry.BLOCK.getHolderOrThrow(Registry.BLOCK.getResourceKey(block).get())
+                .is(ModTags.Blocks.DOWSING_ROD_VALUABLES);
     }
 }
