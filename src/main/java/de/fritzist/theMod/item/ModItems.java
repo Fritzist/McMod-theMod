@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.theMod)));
 
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.theMod)));
+
     // public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
       //      () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
 

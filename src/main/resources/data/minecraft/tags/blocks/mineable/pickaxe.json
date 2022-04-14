@@ -3,6 +3,7 @@
   "values": [
     "themod:silver_ore",
     "themod:silver_block",
-    "themod:deepslate_silver_ore"
+    "themod:deepslate_silver_ore",
+    "themod:raw_silver_block"
   ]
 }

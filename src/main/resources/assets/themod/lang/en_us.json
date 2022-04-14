@@ -1,13 +1,19 @@
 {
   "item.themod.silver_ingot": "Silver Ingot",
+  "item.themod.raw_silver": "Raw Silver",
+
   "item.themod.silver_pickaxe": "Silver Pickaxe",
   "item.themod.silver_sword": "Silver Sword",
   "item.themod.silver_shovel": "Silver Shovel",
   "item.themod.silver_axe": "Silver Axe",
   "item.themod.silver_hoe": "Silver Hoe",
+
+
   "block.themod.silver_block": "Block of Silver",
   "block.themod.silver_ore": "Silver Ore",
   "block.themod.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.themod.raw_silver_block": "Block of Raw Silver",
+
 
   "itemGroup.theMod": "theMod"
 

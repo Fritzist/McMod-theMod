@@ -35,6 +35,11 @@ public class ModBlocks {
                     .strength(4, 13)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.theMod);
 
+    public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
+                    .strength(3, 13)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.theMod);
+
 
 
 
