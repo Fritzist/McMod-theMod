@@ -1,6 +1,7 @@
 package de.fritzist.theMod.item;
 
 import de.fritzist.theMod.Main;
+import de.fritzist.theMod.item.custom.CoalCokeItem;
 import de.fritzist.theMod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> BROCCOLI = ITEMS.register("broccoli",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.theMod).food(ModFoods.BROCCOLI)));
+
+    public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
+            () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.theMod)));
 
 
 
