@@ -1,6 +1,7 @@
 package de.fritzist.theMod.block;
 
 import de.fritzist.theMod.Main;
+import de.fritzist.theMod.block.custom.SpeedyBlock;
 import de.fritzist.theMod.item.ModCreativeModeTab;
 import de.fritzist.theMod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -38,6 +39,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(3, 13)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.theMod);
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2, 5)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.theMod);
 
 

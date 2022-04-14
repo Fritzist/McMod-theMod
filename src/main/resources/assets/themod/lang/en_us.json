@@ -1,6 +1,7 @@
 {
   "item.themod.silver_ingot": "Silver Ingot",
   "item.themod.raw_silver": "Raw Silver",
+  "item.themod.dowsing_rod": "Dowsing Rod",
 
   "item.themod.silver_pickaxe": "Silver Pickaxe",
   "item.themod.silver_sword": "Silver Sword",
@@ -9,12 +10,15 @@
   "item.themod.silver_hoe": "Silver Hoe",
 
 
+
   "block.themod.silver_block": "Block of Silver",
   "block.themod.silver_ore": "Silver Ore",
   "block.themod.deepslate_silver_ore": "Deepslate Silver Ore",
   "block.themod.raw_silver_block": "Block of Raw Silver",
+  "block.themod.speedy_block": "Speedy Block",
 
+  "itemGroup.theMod": "theMod",
 
-  "itemGroup.theMod": "theMod"
+  "item.themod.dowsing_rod.no_valuable": "No Valuables Found!"
 
 }

@@ -1,6 +1,7 @@
 package de.fritzist.theMod.item;
 
 import de.fritzist.theMod.Main;
+import de.fritzist.theMod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.theMod)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.theMod).durability(12)));
 
     // public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
       //      () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
